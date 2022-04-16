@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#defaultModal {
+  background: black;
+  opacity: 0.8;
+}
+
+body .items-start .left-img {
+  height: 60vh;
+}
+body .items-start .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  gap: 1rem;
+}
+body .items-start .right .type {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+body .items-start .right .google {
+  display: flex;
+  border: 1px solid slategray;
+  padding: 0.5rem;
+  gap: 1rem;
+  border-radius: 50px;
+}
+body .items-start .right .apple {
+  display: flex;
+  border: 1px solid slategray;
+  padding: 0.5rem;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 50px;
+}
+body .items-start .right .apple img {
+  width: 7%;
+}
+body .items-start .right .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+body .items-start .right .line .left-line {
+  width: 40%;
+  border-top: 2px solid #edeff1;
+}
+body .items-start .right .line .right-line {
+  width: 40%;
+  border-top: 2px solid #edeff1;
+}
+body .items-start .right input {
+  padding: 1rem;
+  border: 0.5px solid black;
+  outline: none;
+}
+body .items-start .right button {
+  padding: 0.5rem;
+  border-radius: 50px;
+  color: white;
+}
+
+/*# sourceMappingURL=input.css.map */
